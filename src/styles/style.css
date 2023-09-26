@@ -75,6 +75,10 @@ h3 {
   position: relative;
 }
 
+.position-r {
+  position: relative;
+}
+
 .header-title {
   margin-bottom: 185px;
 }
@@ -82,12 +86,16 @@ h3 {
 .header-img {
   height: 525px;
   position: absolute;
-  top: 55px;
+  bottom: 240px;
   right: -270px;
 }
 
 .black {
   color: var(--dark);
+}
+
+.white {
+  color: var(--white);
 }
 
 .padding-100 {
@@ -99,18 +107,19 @@ h3 {
   justify-content: space-between;
 }
 
-.left-side {
+.width-50 {
   width: 50%;
-  margin-right: 15px;
 }
 
-.right-side {
-  width: 50%;
-  margin-left: 15px;
+.mr-30 {
+  margin: 0 30px 0 0;
 }
 
-.header-button {
-  margin-top: 40px;
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.header-btn {
   display: inline-block;
   box-sizing: border-box;
   color: var(--white);
@@ -118,4 +127,49 @@ h3 {
   background: var(--main);
   padding: 12px 24px;
   text-decoration: none;
+}
+
+.about-title {
+  font-size: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.video-name {
+  font-family: OpenSans, sans-serif;
+  color: #212529;
+  font-size: 16px;
+  line-height: 25.6px;
+  text-align: center;
+  margin-bottom: -170px;
+}
+
+.video {
+  display: block;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
+
+#navigation {
+  padding: 200px 0 100px;
+  background: var(--main-dark);
+}
+
+.navigation-title {
+  font-size: 52px;
+  color: var(--white);
+  background: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
