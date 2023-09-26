@@ -71,10 +71,51 @@ h3 {
 
 .header {
   box-sizing: border-box;
-  background-color: #f5f4f0;
+  background-color: var(--light);
   position: relative;
+}
+
+.header-title {
+  margin-bottom: 185px;
+}
+
+.header-img {
+  height: 525px;
+  position: absolute;
+  top: 55px;
+  right: -270px;
 }
 
 .black {
   color: var(--dark);
+}
+
+.padding-100 {
+  padding: 100px 0;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  width: 50%;
+  margin-right: 15px;
+}
+
+.right-side {
+  width: 50%;
+  margin-left: 15px;
+}
+
+.header-button {
+  margin-top: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  color: var(--white);
+  font-weight: 700;
+  background: var(--main);
+  padding: 12px 24px;
+  text-decoration: none;
 }
