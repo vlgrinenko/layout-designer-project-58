@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Когнитивные искажения | vlgrinenko</title>
-
     <link rel="stylesheet" href="styles/style.css" />
   </head>
+
   <body>
-    <header class="header background-img padding-100">
-      <div class="container position-r">
+    <header class="header main-bkg padding-100">
+      <div class="container position">
         <h1 class="header-title">
-          Когнитивные<br />искажения<span class="dark"
+          Когнитивные<br />искажения<span class="black"
             ><br />в программировании</span
           >
         </h1>
         <img class="header-img" src="img/main.png" alt="programmer" />
-        <div class="flex-sb">
-          <div class="width-50 mr-30">
+        <div class="flex-txt">
+          <div class="right-side width-50">
             <p>
               Мы, разработчики, часто сталкиваемся с проблемами, которые идут
               вразрез с нашей продуктивностью. Но мы часто игнорируем целостную
@@ -27,17 +27,19 @@
               сожалению, нет.
             </p>
           </div>
-          <div class="width-50">
+          <div class="left-side width-50 wrp-30">
             <p>
               Вместе они формируют что-то вроде замкнутого цикла, и это может
               привести к длительной потере продуктивности, багам и бесконечному
               разочарованию.
             </p>
-            <p class="mb-40">
+            <p>
               Если мы сможем минимизировать воздействие одного или нескольких из
               этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
             </p>
-            <a href="#navigation" class="header-btn"><span>ПОДРОБНЕЕ</span></a>
+            <a href="#navigation" class="header-button"
+              ><span>подробнее</span></a
+            >
           </div>
         </div>
       </div>
@@ -46,10 +48,10 @@
       <section class="about padding-100">
         <div class="container">
           <h1 class="about-title">
-            <span class="dark">Что же это такое,</span><br />когнитивные
+            <span class="black">Что же это такое,</span><br />когнитивные
             искажения?
           </h1>
-          <h3 class="video-name">
+          <h3 class="about-subt">
             Что такое когнитивные искажения. Petrovna Channel
           </h3>
           <iframe
@@ -63,100 +65,106 @@
         </div>
       </section>
       <section id="navigation">
-        <div class="container">
-          <div class="navigation-list">
-            <div class="navigation-title no-padding">
-              <h1 class="navigation-title-52">
-                5 когнитивных искажений<span class="white display-block">
-                  о существовании которых стоит помнить</span
-                >
-              </h1>
-            </div>
-            <div class="navigation-item">
+        <nav class="navigation-cards container">
+          <ul class="navigation-list">
+            <li class="navigation-title no-padding">
+              <div>
+                <h1 class="navigation-title-52">
+                  5 когнитивных искажений<span
+                    class="white about-title-display-block"
+                  >
+                    о существовании которых стоит помнить</span
+                  >
+                </h1>
+              </div>
+            </li>
+            <li class="navigation-item">
               <a class="navigation-item-link" href="#ikea-effect">
                 <h2 class="navigation-item-num">1</h2>
-                <h3 class="navigation-item-title">Эффект ИКЕА</h3>
-                <p class="navigation-item-text">
+                <h3 class="navigation-item-title orange">Эффект ИКЕА</h3>
+                <p class="navigation-item-txt">
                   Вы переоцениваете собственные решения, и, как следствие,
                   недооцениваете решения других.
                 </p>
               </a>
-            </div>
-            <div class="navigation-item">
+            </li>
+            <li class="navigation-item">
               <a class="navigation-item-link" href="#premature-optimization">
                 <h2 class="navigation-item-num">2</h2>
-                <h3 class="navigation-item-title">
+                <h3 class="navigation-item-title orange">
                   Преждевременная оптимизация
                 </h3>
-                <p class="navigation-item-text">
+                <p class="navigation-item-txt">
                   Вы оптимизируете что-то задолго до того, как в этом появляется
                   необходимость.
                 </p>
               </a>
-            </div>
-            <div class="navigation-item">
+            </li>
+            <li class="navigation-item">
               <a class="navigation-item-link" href="#distortion-of-novelty">
                 <h2 class="navigation-item-num">3</h2>
-                <h3 class="navigation-item-title">Искажение новизны</h3>
-                <p class="navigation-item-text">
+                <h3 class="navigation-item-title orange">Искажение новизны</h3>
+                <p class="navigation-item-txt">
                   Вы даёте более высокую оценку тем событиям, которые произошли
                   недавно, и недооцениваете более старые.
                 </p>
               </a>
-            </div>
-            <div class="navigation-item">
+            </li>
+            <li class="navigation-item">
               <a class="navigation-item-link" href="#hyperbolic-depreciation">
                 <h2 class="navigation-item-num">4</h2>
-                <h3 class="navigation-item-title">
+                <h3 class="navigation-item-title orange">
                   Гиперболическое обесценивание
                 </h3>
-                <p class="navigation-item-text">
+                <p class="navigation-item-txt">
                   Вы гонитесь за немедленной маленькой выгодой и игнорируете
                   более крупную, недоступную сейчас, но доступную в будущем.
                 </p>
               </a>
-            </div>
-            <div class="navigation-item">
+            </li>
+            <li class="navigation-item">
               <a class="navigation-item-link" href="#errors-in-planning">
                 <h2 class="navigation-item-num">5</h2>
-                <h3 class="navigation-item-title">Ошибка планирования</h3>
-                <p class="navigation-item-text">
+                <h3 class="navigation-item-title orange">
+                  Ошибка планирования
+                </h3>
+                <p class="navigation-item-txt">
                   Неправильно рассчитывать время необходимое для завершения
                   задачи.
                 </p>
               </a>
-            </div>
-          </div>
-        </div>
+            </li>
+          </ul>
+        </nav>
       </section>
-      <section id="ikea-effect" class="background-img bkg-light padding-100">
+      <section id="ikea-effect" class="main-bkg padding-100">
         <div class="container">
-          <div class="flex-sb mb-100">
-            <div class="pictures-div mr-30">
+          <div class="flex-txt wrp-100">
+            <div class="pictures-div">
               <img class="pictures" src="./img/1.png" alt="computer" />
             </div>
-            <div class="width-50 title-neucha">
-              <p class="title-24 translucent-dark">Когнитивные искажения</p>
-              <h2 class="title-60 dark">Эффект ИКЕА</h2>
-              <p class="title-34 dark">
+            <div class="wrp-30">
+              <h2 class="title-50">Когнитивные искажения</h2>
+              <p class="subtitle-60">Эффект ИКЕА</p>
+              <p class="subtitle-34">
                 Вы переоцениваете собственные решения, и, как следствие,
                 недооцениваете решения других.
               </p>
             </div>
           </div>
-          <div class="how-appears bkg-brown">
+          <div class="how-appears brown-bkg">
             <h3 class="how-appears-title white">Как проявляется</h3>
           </div>
-          <div class="flex-sb">
-            <div class="width-50 mr-30">
-              <p class="margin-0">
+          <div class="flex-txt">
+            <div class="width-50">
+              <p class="how-appears-txt">
                 Когнитивное искажение называется так из-за того, что потребители
                 зачастую предпочитают покупать товары, которые они могут собрать
                 сами, а не уже собранные кем-то.
               </p>
             </div>
-            <div class="width-50">
-              <p class="margin-0">
+            <div class="wrp-30 width-50">
+              <p class="how-appears-txt">
                 Мы склонны переоцнивать наши собственные решения и недооценивать
                 решения других. Если вы когда-то работали в компании, которая
                 использовала тупой внутренний инструмент вместо более удобного
@@ -166,37 +174,34 @@
           </div>
         </div>
       </section>
-      <section
-        id="premature-optimization"
-        class="background-img bkg-brown white padding-100"
-      >
+      <section id="premature-optimization" class="main-bkg padding-100">
         <div class="container">
-          <div class="flex-sb mb-100">
-            <div class="width-50 title-neucha mr-30">
-              <p class="title-24 translucent-white">Когнитивные искажения</p>
-              <h2 class="title-60 white">Преждевременная оптимизация</h2>
-              <p class="title-34">
+          <div class="flex-txt wrp-100">
+            <div>
+              <h2 class="title-50 white-50">Когнитивные искажения</h2>
+              <p class="subtitle-60">Преждевременная оптимизация</p>
+              <p class="subtitle-34">
                 Вы оптимизируете что-то задолго до того, как в этом появляется
                 необходимость.
               </p>
             </div>
-            <div class="pictures-div">
+            <div class="pictures-div wrp-30">
               <img class="pictures" src="./img/2.png" alt="rocket" />
             </div>
           </div>
-          <div class="how-appears bkg-white">
+          <div class="how-appears white-bkg">
             <h3 class="how-appears-title brown">Как проявляется</h3>
           </div>
-          <div class="flex-sb">
-            <div class="width-50 mr-30">
-              <p class="margin-0">
+          <div class="flex-txt">
+            <div class="width-50">
+              <p class="how-appears-txt">
                 Если вы добавите аэродинамический спойлер к своему старому
                 автомобилю вместо ремонта мотора, то автомобиль не станет
                 быстрее.
               </p>
             </div>
-            <div class="width-50">
-              <p class="margin-0">
+            <div class="wrp-30 width-50">
+              <p class="how-appears-txt">
                 Отличный пример: писать максимально подтюненный и
                 высокопроизводительный код для всего лишь экспериментального
                 проекта.
@@ -205,38 +210,35 @@
           </div>
         </div>
       </section>
-      <section
-        id="distortion-of-novelty"
-        class="background-img bkg-light padding-100"
-      >
+      <section id="distortion-of-novelty" class="main-bkg padding-100">
         <div class="container">
-          <div class="flex-sb mb-100">
-            <div class="pictures-div mr-30">
+          <div class="flex-txt wrp-100">
+            <div class="pictures-div">
               <img class="pictures" src="./img/3.png" alt="trash" />
             </div>
-            <div class="width-50 title-neucha">
-              <p class="title-24 translucent-dark">Когнитивные искажения</p>
-              <h2 class="title-60 dark">Искажение новизны</h2>
-              <p class="title-34 dark">
+            <div class="wrp-30">
+              <h2 class="title-50">Когнитивные искажения</h2>
+              <p class="subtitle-60">Искажение новизны</p>
+              <p class="subtitle-34">
                 Вы даёте более высокую оценку тем событиям, которые произошли
                 недавно, и недооцениваете более старые.
               </p>
             </div>
           </div>
-          <div class="how-appears bkg-brown">
+          <div class="how-appears brown-bkg">
             <h3 class="how-appears-title white">Как проявляется</h3>
           </div>
-          <div class="flex-sb">
-            <div class="width-50 mr-30">
-              <p class="margin-0">
+          <div class="flex-txt">
+            <div class="width-50">
+              <p class="how-appears-txt">
                 Часто это искажение настигает нас, когда нужно решение проблемы
                 и… о! Мы как раз только что решили подобную проблему! Давайте
                 использовать это же решение, потому что оно сработало, и мы
                 помним как!
               </p>
             </div>
-            <div class="width-50">
-              <p class="margin-0">
+            <div class="wrp-30 width-50">
+              <p class="how-appears-txt">
                 Вы замечаете, что пользуетесь теми же рабочими методиками раз за
                 разом? Если да, возможно, вы смотрите на разные проблемы под
                 одним и тем же углом.
@@ -245,37 +247,34 @@
           </div>
         </div>
       </section>
-      <section
-        id="hyperbolic-depreciation"
-        class="background-img bkg-brown white padding-100"
-      >
+      <section id="hyperbolic-depreciation" class="main-bkg padding-100 white">
         <div class="container">
-          <div class="flex-sb mb-100">
-            <div class="width-50 title-neucha mr-30">
-              <p class="title-24 translucent-white">Когнитивные искажения</p>
-              <h2 class="title-60 white">Гиперболическое обесценивание</h2>
-              <p class="title-34">
+          <div class="flex-txt wrp-100">
+            <div>
+              <h2 class="title-50 white-50">Когнитивные искажения</h2>
+              <p class="subtitle-60">Гиперболическое обесценивание</p>
+              <p class="subtitle-34">
                 Вы гонитесь за немедленной маленькой выгодой и игнорируете более
                 крупную, недоступную сейчас, но доступную в будущем.
               </p>
             </div>
-            <div class="pictures-div">
+            <div class="pictures-div wrp-30">
               <img class="pictures" src="./img/4.png" alt="mountain" />
             </div>
           </div>
-          <div class="how-appears bkg-white">
+          <div class="how-appears white-bkg">
             <h3 class="how-appears-title brown">Как проявляется</h3>
           </div>
-          <div class="flex-sb">
-            <div class="width-50 mr-30">
-              <p class="margin-0">
+          <div class="flex-txt">
+            <div class="width-50">
+              <p class="how-appears-txt">
                 Вы когда-нибудь откладывали написание теста? Ловили себя на
                 использовании клавиш-стрелок в Vim? Поздравляю, у вас
                 наблюдается гиперболическое обесценивание.
               </p>
             </div>
-            <div class="width-50">
-              <p class="margin-0">
+            <div class="wrp-30 width-50">
+              <p class="how-appears-txt">
                 Немедленная выгода от использования чего-то быстродоступного
                 значительно смягчает боль, которую нужно перетерпеть, чтобы
                 усвоить правильный синтаксис для перемещения на нужную строчку.
@@ -286,37 +285,36 @@
           </div>
         </div>
       </section>
-      <section
-        id="errors-in-planning"
-        class="background-img bkg-light padding-100"
-      >
+      <section id="errors-in-planning" class="main-bkg padding-100">
         <div class="container">
-          <div class="flex-sb mb-100">
-            <div class="pictures-div mr-30">
-              <img class="pictures" src="./img/5.png" alt="planing" />
+          <div class="flex-txt wrp-100">
+            <div class="pictures-div">
+              <img class="pictures" src="./img/5.png" alt="clock" />
             </div>
-            <div class="width-50 title-neucha">
-              <p class="title-24 translucent-dark">Когнитивные искажения</p>
-              <h2 class="title-60 dark">Ошибка планирования</h2>
-              <p class="title-34 dark">
+            <div class="wrp-30">
+              <h2 class="title-50">Когнитивные искажения</h2>
+              <p class="subtitle-60">Ошибка планирования</p>
+              <p class="subtitle-34">
                 Неправильно рассчитывать время необходимое для завершения
                 задачи.
               </p>
             </div>
           </div>
-          <div class="how-appears bkg-brown">
+          <div class="how-appears brown-bkg">
             <h3 class="how-appears-title white">Как проявляется</h3>
           </div>
-          <div class="flex-sb">
-            <div class="width-50 mr-30">
-              <p class="margin-0">
+          <div class="flex-txt">
+            <div class="width-50">
+              <p class="how-appears-txt">
                 Одно из искажений, которое должно признать большинство из нас. И
                 менеджеры проекта, и сами пользователи продукта — все склонны
                 ставить сроки, в которые невозможно закончить запланированное.
               </p>
             </div>
-            <div class="width-50">
-              <p class="margin-0">Это отлично выражается в старом афоризме:</p>
+            <div class="wrp-30 width-50">
+              <p class="how-appears-txt">
+                Это отлично выражается в старом афоризме:
+              </p>
               <p>
                 Первые 90% готового кода отнимают первые 90% времени разработки.
                 Оставшиеся 10% отнимают вторые 90% времени разработки.
@@ -326,9 +324,9 @@
         </div>
       </section>
     </main>
-    <footer class="footer padding-100">
+    <footer class="footer">
       <div class="container">
-        <div class="footer-info white flex-sb">
+        <div class="footer-info white flex-txt">
           <div class="footer-info-title">
             <h3 class="white">
               Хотите узнать больше?<br />
@@ -339,13 +337,13 @@
             <form>
               <label>
                 <p class="footer-form-title">Электронная почта</p>
-                <div class="flex-sb">
+                <div class="flex-txt">
                   <input
-                    class="footer-input"
+                    class="footer-info-input"
                     placeholder="Ваша электронная почта"
                     type="text"
                   />
-                  <button class="footer-button" type="submit"></button>
+                  <button class="footer-info-button" type="submit"></button>
                 </div>
               </label>
             </form>
@@ -359,15 +357,11 @@
           <p>© 2023 Гриненко Владимир</p>
           <p>
             По материалам статьи
-            <a
-              class="contact-link"
-              href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b"
+            <a class="contact-link" href="#"
               >Yash Ranadive Cognitive Biases in Programming</a
             >
           </p>
-          <a class="contact-link" href="https://ru.hexlet.io/"
-            >Курсы программирования Hexlet</a
-          >
+          <a class="contact-link" href="#">Курсы программирования Hexlet</a>
         </div>
       </div>
     </footer>
