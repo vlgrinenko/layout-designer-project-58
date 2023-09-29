@@ -339,3 +339,70 @@ h3 {
 #errors-in-planning {
   position: relative;
 }
+
+.footer-info {
+  background-color: var(--main-dark);
+  padding: 0 55px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.padding-tb-55 {
+  padding: 55px 0;
+}
+
+.e-mail {
+  margin: 0 0 9px 0;
+  font-size: 18px;
+}
+
+.email-input {
+  width: 423px;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #e3e3e3;
+}
+
+::placeholder {
+  color: #757575;
+  font-size: 13.1px;
+}
+
+.footer-button {
+  width: 70px;
+  height: 50px;
+  background: var(--main);
+  border: none;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.footer-button:hover {
+  background-color: #ea7600;
+}
+
+.footer-button::before {
+  content: "";
+  background-image: url("../img/send.svg");
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 23px;
+  top: 13px;
+}
+
+.agreement {
+  margin: 0;
+  font-size: 12px;
+}
+
+.contact {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contact-link {
+  color: var(--blue);
+}
