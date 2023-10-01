@@ -135,6 +135,14 @@ h3 {
   width: 50%;
 }
 
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .mr-30 {
   margin-right: 30px;
 }
@@ -145,6 +153,14 @@ h3 {
 
 .mb-100 {
   margin-bottom: 100px;
+}
+
+.h-323 {
+  height: 323px;
+}
+
+.h-348 {
+  height: 348px;
 }
 
 .header-btn {
@@ -200,12 +216,11 @@ h3 {
 
 .navigation-title {
   font-size: 52px;
+  width: 350px;
   color: var(--white);
   background: none;
   box-sizing: border-box;
-  width: 350px;
   margin-bottom: 10px;
-  padding: 10px;
 }
 
 .no-padding {
@@ -259,11 +274,17 @@ h3 {
 .navigation-item-num {
   font-size: 64px;
   color: var(--main-dark);
-  margin: 0 0 40px;
+  margin: 0 0 28px;
+  padding: 0;
 }
 
 .navigation-item-title {
-  margin: 0 0 16px;
+  color: #fe8a02;
+  font-size: 34px;
+  font-family: Neucha;
+  font-weight: 400;
+  line-height: 40.8px;
+  word-wrap: break-word;
 }
 
 .navigation-item-text {
