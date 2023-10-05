@@ -167,6 +167,10 @@ h3 {
   height: 348px;
 }
 
+.height-814 {
+  height: 614px;
+}
+
 .header-btn {
   display: inline-block;
   box-sizing: border-box;
@@ -298,6 +302,7 @@ h3 {
 
 #ikea-effect {
   position: relative;
+  max-height: 905px;
 }
 
 .pictures {
