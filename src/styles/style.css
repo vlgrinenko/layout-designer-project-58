@@ -122,6 +122,10 @@ h3 {
   right: -270px;
 }
 
+.overflow-h {
+  overflow: hidden;
+}
+
 .padding-100 {
   padding: 100px 0;
 }
