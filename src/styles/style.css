@@ -255,6 +255,31 @@ h3 {
   background-color: var(--light);
 }
 
+.navigation-item-num {
+  font-size: 64px;
+  color: var(--main-dark);
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+.navigation-item-link {
+  text-decoration: none;
+}
+
+.navigation-item-title {
+  color: #fe8a02;
+  font-size: 34px;
+  font-family: Neucha;
+  font-weight: 400;
+  line-height: 40.8px;
+  word-wrap: break-word;
+}
+
+.navigation-item-text {
+  color: var(--dark);
+  margin: 0;
+}
+
 .navigation-item:hover {
   background-color: var(--main);
 }
@@ -273,31 +298,6 @@ h3 {
 
 .navigation-item:nth-child(-n + 3) {
   margin-bottom: 20px;
-}
-
-.navigation-item-link {
-  text-decoration: none;
-}
-
-.navigation-item-num {
-  font-size: 64px;
-  color: var(--main-dark);
-  margin: 0 0 40px;
-  padding: 0;
-}
-
-.navigation-item-title {
-  color: #fe8a02;
-  font-size: 34px;
-  font-family: Neucha;
-  font-weight: 400;
-  line-height: 40.8px;
-  word-wrap: break-word;
-}
-
-.navigation-item-text {
-  color: var(--dark);
-  margin: 0;
 }
 
 #ikea-effect {
