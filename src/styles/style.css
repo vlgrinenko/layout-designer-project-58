@@ -367,6 +367,7 @@ h3 {
 
 .footer {
   padding: 100px 0;
+  max-height: 581px;
 }
 
 .footer-info {
